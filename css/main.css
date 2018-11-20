@@ -97,6 +97,41 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* NAVIGATION */
+#logo{
+	position:absolute;
+	top:10px;
+	left:20px;
+}
+.main-nav ul{
+	list-style-type:none;
+	padding:0;
+	padding-left:200px;
+	margin:0;
+}
+.main-nav li{
+	display: inline-block;
+	padding:1em;
+	font-family:sans-serif;
+}
+.donate li a{
+	color:#d37e4a;
+}
+.main-nav{
+	background-color: white;
+	color:white;
+	margin: 10px 0px;
+	padding-bottom:20px;
+	padding-top:10px;
+	border-bottom:solid 8px #3885b7;
+}
+.main-nav a{
+	color:#044375;
+	text-decoration: none;
+}
+.main-nav a:hover{
+	border-bottom:solid 2px #d37e4a;
+}
 
 
 
