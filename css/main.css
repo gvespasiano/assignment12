@@ -192,8 +192,14 @@ p{
 }
 
 
-
-
+/* indv bios */
+.bio{
+	width:45%;
+	margin:auto;
+}
+.animalbio img{
+	width:100%;
+}
 
 
 
