@@ -132,7 +132,9 @@ textarea {
 .main-nav a:hover{
 	border-bottom:solid 2px #d37e4a;
 }
-
+.emailform{
+	display:none;
+}
 /* Articles */
 .featured{
 	width:100%;
@@ -191,10 +193,6 @@ p{
 }
 
 /* footer */
-#emailform{
-	background-color:#d37e4a;
-	display:none;
-}
 .mainfoot{
 	background-color:#3885b7;
 	clear:both;
@@ -223,7 +221,7 @@ p{
 .animalbio img{
 	width:100%;
 }
-.adoptmain, .adopt{
+.adopt{
 	background-color:#d37e4a;
 	padding:10px;
 	text-align:center;
@@ -234,22 +232,36 @@ p{
 	position:fixed;
 	top:900px;
 	left:425px;
-	
-}
-.adoptmain:hover{
-	color:#3885b7;
 }
 .adopt:hover{
 	color:#3885b7;
 }
+/* JS CSS */
 
+.adopt-open .emailform{
+	display:block;
+	background-color:#d37e4a;
+	position:fixed;
+	top:200px;
+	left:300px;
+	width:500px;
+	text-align:center;
+	padding:20px;
+	border:4px solid #3885b7;
+}
 
-
-
-
-
-
-
+.emailform h2:hover{
+	color:#3885b7;
+}
+.adopt-open .adopt{
+	display:none;
+}
+.emailform .close-icon{
+	color:#3885b7;
+	font-size:2em;
+	cursor:pointer;
+	text-align:right;
+}
 
 
 /* ==========================================================================
