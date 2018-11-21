@@ -172,6 +172,11 @@ h1,h2{
 h3,h4,h5{
 	color:#3885b7;
 }
+h5{
+	font-size:115%;
+	line-height:.75em;
+}
+
 h3:hover{
 	color:#d37e4a;
 }
@@ -200,8 +205,25 @@ p{
 .animalbio img{
 	width:100%;
 }
-
-
+.adoptmain, .adopt{
+	background-color:#d37e4a;
+	padding:10px;
+	text-align:center;
+	border:solid 4px #3885b7;
+	cursor:pointer;
+}
+.adopt{
+	position:fixed;
+	top:900px;
+	left:425px;
+	
+}
+.adoptmain:hover{
+	color:#3885b7;
+}
+.adopt:hover{
+	color:#3885b7;
+}
 
 
 
